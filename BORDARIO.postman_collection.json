@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "fbaaedfb-a4fb-426c-8b04-fbdcbc03df66",
+		"name": "BORDARIO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42600243"
+	},
+	"item": [
+		{
+			"name": "Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/BORDARIO/api/Product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"BORDARIO",
+						"api",
+						"Product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/BORDARIO/api/Product/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"BORDARIO",
+						"api",
+						"Product",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product Latest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/BORDARIO/api/Product/latest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"BORDARIO",
+						"api",
+						"Product",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
